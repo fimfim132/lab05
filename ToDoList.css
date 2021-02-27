@@ -1,0 +1,66 @@
+.head{
+    background-color: red;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    
+}
+
+body{
+    text-align: center;
+}
+
+.bg{
+  position: relative;
+  top: 50%;
+  left: 45%;
+  right: 50%;
+}
+
+ul {
+    text-align: left;
+    margin-top: 20px; 
+}
+
+li {
+    list-style: none;
+    padding: 10px 10px;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    transition: all 0.75s ease;
+    text-transform: capitalize;
+    width: 240px;
+    left: 30%;
+}
+
+li:hover {
+    background-color: gray;
+}
+
+li > button {
+    background: none;
+    border: none;
+    float: right;
+    color: black;
+    font-weight: 800;
+}
+
+input {
+    border-radius: 5px;
+    min-width: 65%;
+    border: none;
+    padding: 5px;
+    height: 40px;
+}
+
+.done {
+    text-decoration:line-through;
+    background: #949494 !important;
+}
+
+.delete {
+    display: none;
+}
+
