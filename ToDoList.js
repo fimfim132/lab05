@@ -12,11 +12,10 @@ function listLength() {
 
 function createListElemen(){
    var li = document.createElement("li"); 
-   li.appendChild(document.createTextNode(input.value)); //สร้างข้อความที่จะบันทึก
-   ul.appendChild(li); //สร้างให้แสดง list ออกมา
-   input.value = "" ; //ลบข้อความจากช่องอินพุตที่เราใส่ไปแล้ว
+   li.appendChild(document.createTextNode(input.value)); 
+   ul.appendChild(li);
+   input.value = "" ; 
 
-   //ฟังชั่นสิ่งที่ทำแล้ว
    function crossOut(){
        li.classList.toggle("done"); 
    }
